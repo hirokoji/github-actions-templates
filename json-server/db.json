@@ -1,0 +1,39 @@
+{
+  "blogposts": [
+    {
+      "id": 1,
+      "title": "API POST",
+      "content": "content for my post"
+    },
+    {
+      "title": "Test",
+      "content": "Test",
+      "id": 2
+    },
+    {
+      "title": "Hi",
+      "content": "Hi",
+      "id": 3
+    },
+    {
+      "title": "4",
+      "content": "Fafda",
+      "id": 4
+    },
+    {
+      "title": "Delay",
+      "content": "Delay",
+      "id": 5
+    },
+    {
+      "title": "666",
+      "content": "Aaa",
+      "id": 6
+    },
+    {
+      "title": "Osos",
+      "content": "Os",
+      "id": 7
+    }
+  ]
+}

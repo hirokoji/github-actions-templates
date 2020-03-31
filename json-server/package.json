@@ -1,0 +1,44 @@
+{
+  "name": "json-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "jest.config.js",
+  "files": [
+    "dist",
+    "!**/__tests__/**/*"
+  ],
+  "scripts": {
+    "start": "json-server -w db.json",
+    "lint": "eslint ./src/*.ts",
+    "lint:fix": "npm run lint -- --fix",
+    "test:unit": "jest",
+    "test": "npm run lint && npm run test:unit"
+  },
+  "devDependencies": {
+    "@types/ajv": "^1.0.0",
+    "@types/jest": "^24.0.13",
+    "@types/node": "^12.0.7",
+    "@types/request-promise": "^4.1.45",
+    "@typescript-eslint/eslint-plugin": "^2.4.0",
+    "@typescript-eslint/parser": "^2.4.0",
+    "eslint": "^6.5.1",
+    "eslint-config-prettier": "^6.4.0",
+    "eslint-plugin-prettier": "^3.1.1",
+    "jest": "^24.8.0",
+    "lint-staged": "^9.0.1",
+    "nodemon": "^1.19.1",
+    "prettier": "^1.18.2",
+    "ts-jest": "^24.0.2",
+    "ts-node": "^8.2.0",
+    "typescript": "^3.7.2",
+    "typescript-json-schema": "^0.40.0"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "json-server": "^0.16.1",
+    "request": "^2.88.2",
+    "request-promise": "^4.2.5"
+  }
+}
