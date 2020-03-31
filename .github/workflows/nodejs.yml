@@ -25,6 +25,8 @@ jobs:
       with:
         node-version: ${{ matrix.node-version }}
     - name: npm test
+      working-directory: ./json-server
       run: |
-       pwd
-       ls -l
+       npm ci
+       npm start &
+       npm test
